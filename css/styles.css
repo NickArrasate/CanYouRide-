@@ -1,0 +1,9 @@
+.border {
+
+  border-style: double;
+  border-color: red;
+}
+
+img {
+  max-width: 50%;
+}

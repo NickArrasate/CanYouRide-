@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-1.12.2.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Rides</title>
+  </head>
+  <body>
+    <div class="container">
+
+      <form id="heightform" role="form">
+        <div class="form-group">
+          <label for="height">How tall are you in inches?</label>
+          <input id="height" type="text" name="height" value="">
+          <button type="submit" class="btn">What rides can I ride?</button>
+        </div>
+      </form>
+
+      <div id="canride" class="ride">
+        <h1>Hello, rider.</h1>
+        <h2>Thanks for riding</h2>
+        <p>You are tall enough for all the big rides.</p>
+        <img src="img/loops.jpg" alt="two loops on a coaster." />
+     </div>
+
+      <div id="cantride" class="ride">
+        <h1>Sorry, you can't ride the biggest rides, nerd.</h1>
+        <img src="img/woody.jpg" alt="a wooden coaster." />
+      </div>
+
+      <div id="restricted" class="ride">
+        <h1>These are the rides you can ride, little one.</h1>
+        <img src="img/whirl.jpg" alt="a tilt-a-whirl" />
+      </div>
+
+      <div id="smallest" class="ride">
+        <h1>Smallest rider over here people! Dumbo ride!</h1>
+        <img src="img/dumbo.jpg" alt="the dumbo ride at disney." />
+      </div>
+
+    </div>
+  </body>
+</html>
